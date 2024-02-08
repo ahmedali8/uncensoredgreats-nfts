@@ -18,22 +18,22 @@ dfx deploy factory --with-cycles 90000000000000
 ```bash
 dfx deploy icrc7 --argument '(record{                                  
 minting_account= opt record {
-    owner = principal "zpxxt-vkthd-jg62u-t6yfs-fo2nu-mbtcj-loqyi-yjrsn-yycfj-5ah6j-vae";                                     
+    owner = principal "yog5q-6fxnl-g4zd4-s2nuh-f7fkw-ijb4e-z7dmo-jrarx-uoe2x-wx5sh-dae";
     subaccount = opt blob "\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00";
   };                  
 icrc7_supply_cap= null;
-icrc7_description= opt "ICP Flower Collection";
+icrc7_description= opt "Immortalize any ebook as nonreplicable IP";
 tx_window= null;                        
 permitted_drift= null;                  
 icrc7_max_take_value= null;
 icrc7_max_memo_size= null;
-icrc7_symbol= "ICFL";
+icrc7_symbol= "UCG_test";
 icrc7_max_update_batch_size= null;
 icrc7_max_query_batch_size= null;
 icrc7_atomic_batch_transfers= null;
 icrc7_default_take_value= null;
 icrc7_logo= null;
-icrc7_name= "ICP Flower"
+icrc7_name= "Testing UncensoredGreats Books"
 })'
 ```
 
@@ -58,7 +58,7 @@ token_name= null
 dfx canister call icrc7 icrc7_transfer '(vec{
 record{
 to=record {
-owner = principal "t4egw-clf4w-qbpli-svryg-7yqq6-jt2yj-7v755-mabir-zmx6i-vp4fr-fqe";
+owner = principal "yog5q-6fxnl-g4zd4-s2nuh-f7fkw-ijb4e-z7dmo-jrarx-uoe2x-wx5sh-dae";
 subaccount = opt blob "\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00";
 };
 token_id= 1;
