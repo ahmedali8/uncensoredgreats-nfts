@@ -1,4 +1,9 @@
 #ICRC7
+```bash
+# Install CLI tool to extract candid definition from canister WASM.
+cargo install candid-extractor 
+```
+
 
 ```bash
 # starts replica in background
