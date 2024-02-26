@@ -7,7 +7,7 @@ use ic_cdk_macros::{export_candid, update};
 use icrc_ledger_types::icrc1::account::Account;
 use serde::Deserialize;
 
-pub const ICRC7_WASM: &[u8] = std::include_bytes!("./../../wasm_files/icrc7.wasm");
+pub const ICRC7_WASM: &[u8] = std::include_bytes!("./../../wasm_files/icrc7.wasm.gz");
 
 #[derive(CandidType)]
 pub struct InitArg {
